@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio2._3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float Dolar;
+
+            float peuro;
+
+
+
+            Console.WriteLine("Valor del Euro en dolar(Hoy Dia): ");
+            peuro = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Convertir de Dolar A Euro.");
+            Console.WriteLine("Cantidad en Dolar: ");
+            Dolar = float.Parse(Console.ReadLine());
+
+
+            Console.WriteLine("Resultado : " + peuro / Dolar + " EU");
+
+            Console.ReadKey();
+        }
+    }
+}
+
